@@ -17,7 +17,10 @@
     	<!-- Linked Style Sheets -->
     	<link href="css/main.css" rel="stylesheet">
     	<link href="css/project.css" rel="stylesheet">
-    	<link href="css/seerem.css" rel="stylesheet">
+		<link href="css/seerem.css" rel="stylesheet">
+		
+		<!-- JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   	</head>
 
   	<body>
@@ -32,7 +35,7 @@
 			<ul class="nav-link-section">
 		    	<li><a href="index.html" class="nav-link">Projects</a></li>
 		    	<li><a href="about.html" class="nav-link">About</a></li>
-		    	<li><a href="contact.html" class="nav-link">Contact</a></li>
+		    	<li><a href=" " class="nav-link">Resume</a></li>
 		  	</ul>
 		</nav>
 
@@ -48,7 +51,13 @@
 	    	<div class="page-description">
 	    		<h2>Overview</h2>
 	    		<hr>
-	    		<p>For this project, I worked in a team of two with the company Seeda to develop a front-end website for their SeeRem division. The objective of the project was to design and build a functioning website for SeeRem to allow their customers to learn more about their service and to connect with their sales team. By communicating with the company, I was able to learn more about the service they were offering to help my partner and I better design for the intended purpose of the website. The end product was a fully developed front-end responsive website to promote SeeRem, an application that allows teams working in remote worksites to connect with one another.</p>
+	    		<p>For this project, I worked in a team of two with the SEEDA company to develop a front-end website 
+					for their SeeRem division. The objective of the project was to design and build a functioning website 
+					for SeeRem to allow their customers to learn more about the SeeRem application and to connect with the 
+					sales team. By communicating with the company, I was able to learn more about the service they were offering 
+					to help my partner and I better design for the intended purpose of the website. The end product was a fully 
+					developed front-end responsive website to promote SeeRem, an application that allows teams working in remote 
+					worksites to connect with one another.</p>
 	    		<!-- Website Link -->
 	    		<div class="overview-button">
 	    			<a href="http://www.sfu.ca/~cws8/iat339/seerem" class="action-btn" target="_blank">View&nbsp;Website&nbsp;&rarr;</a>
@@ -56,7 +65,10 @@
 	    	</div>
 	    	<!-- Image -->
 	    	<div class="image-container">
-		       	<img src="img/seeremproject.png" alt="SeeRem Website">
+				<img src="img/seeremproject.png" alt="SeeRem Website">
+				
+				<!-- Trigger the Modal -->
+				<!-- <img id="myImg" src="img_snow.jpg" alt="Snow" style="width:100%;max-width:300px"> -->
 	    	</div>
 		</div>
 
@@ -85,83 +97,160 @@
 					<li>Dinuki Adikaram</li>
 				</ul>
 			</section>
+			<!-- Duration -->
+			<section class="duration-container">
+				<h3>Duration</h3>
+				<ul>
+					<li>8 Weeks<br>(Sept-Nov 2020)</li>
+				</ul>
+			</section>
 		</div>
 
 		<!-- Divider -->
 		<hr class="divider">
 
 		<!-- Project Analysis Part One -->
-		<div class="container center-align">
-	    	<!-- Image -->
-	    	<div class="image-container left">
-		       	<img src="img/seeremstyleguide.png" alt="SeeRem Style Guide">
+		<div class="container">
+	    	<div class="heading-container">
+	    		<h3>Ideation & Style Guide</h3>
 	    	</div>
 	    	<!-- Description -->
-	    	<div class="page-description right">
-	    		<h3>Ideation & Style Guide</h3>
-	    		<p>During the first month of the project, I began creating wireframes and a style guide for the SeeRem website. The style guide consisted of designing the basic structure and elements that would be incorporated into the site which would help my partner and I keep a consistent design and code structure on all the web pages. This stage also included understanding the branding of the company and how it would be represented through the website. </p>
-	    		<!-- Image -->
-		       	<img src="img/seeremwireframes.png" alt="SeeRem Wireframes">
-	    	</div>
+	    	<div class="process-description">
+				<p>During the first month of the project, I began creating wireframes and a style guide for the SeeRem website. 
+					The style guide consisted of designing the basic structure and elements that would be incorporated into the 
+					site which would help my partner and I keep a consistent design and code structure on all the web pages. 
+					This stage also included understanding the branding of the company and how it would be represented through 
+					the website.</p>
+				<!-- Image -->
+				<!-- <img src="img/seeremstyleguide.png" alt="SeeRem Style Guide"> -->
+				<img src="img/seeremwireframes.png" alt="SeeRem Wireframes">
+			</div>
 		</div>
 
 		<!-- Project Analysis Part Two -->
 		<div class="container">
+	    	<!-- Image -->
+	    	<div class="heading-container">
+	    		<h3>Website Development</h3>
+	    	</div>
 	    	<!-- Description -->
+	    	<div class="process-description">
+				<img src="img/seerempages.png" alt="SeeRem Website Layouts">
+				<p>Development of the website began in the second month, where I started creating template pages using HTML and CSS. 
+					Throughout the weeks, we began refining the layout of the overall site by compiling content, images, and deciding 
+					on the overall flow that would create a positive user experience. JavaScript was also used in the site to increase 
+					the functionality, such as having a scroll to top and confirmation messages.</p>
+			</div>
+		</div>
+
+		<!-- Project Analysis Part Three -->
+		<div class="container">
+	    	<!-- Image -->
+	    	<div class="heading-container">
+	    		<h3>Challenge of Responsiveness</h3>
+	    	</div>
+	    	<!-- Description -->
+	    	<div class="process-description">
+				<p>Once the structure of the website was developed, I had to ensure that the site was responsive so that it can be 
+					viewed on different device screen sizes, including mobile. This was one of the more challenging tasks of the 
+					project as it was my first time developing a website that would be fully responsive. Making the website work well 
+					for mobile devices proved to be very hard as the screen size was a lot smaler in comparison to a desktop screen 
+					size. However, through the use of media queries, I was able to make the elements of the page more appropriate for 
+					smaller screen sizes.</p>
+	    	
+				<!-- Image -->
+				<img src="img/seeremmobile.png" alt="SeeRem Website on Mobile">
+			</div>
+		</div>
+
+		<!-- Project Analysis Part Four -->
+		<div class="container">
+	    	<!-- Image -->
+	    	<div class="heading-container">
+	    		<h3>Conclusion</h3>
+	    	</div>
+	    	<!-- Description -->
+	    	<div class="process-description">
+				<p>Once the structure of the website was developed, I had to ensure that the site was responsive so that it can be viewed 
+					on different device screen sizes, including mobile. This was one of the more challenging tasks of the project as it was 
+					my first time developing a website that would be fully responsive. Making the website work well for mobile devices proved 
+					to be very hard as the screen size was a lot smaller in comparison to a desktop screen size. However, through the use of 
+					media queries, I was able to make the elements of the page more appropriate for smaller screen sizes.</p>
+				<!-- Image -->
+				<img src="img/seeremconclusion.png" alt="SeeRem Website Before and After">
+			</div>
+		</div>
+		
+
+		<!-- 
+		<div class="container center-align">
+	    	<div class="image-container left">
+		       	<img class="lightbox-img" src="img/seeremstyleguide.png" alt="SeeRem Style Guide">
+	    	</div>
+	    	<div class="page-description right">
+	    		<h3>Ideation & Style Guide</h3>
+	    		<p>During the first month of the project, I began creating wireframes and a style guide for the SeeRem website. The style guide consisted of designing the basic structure and elements that would be incorporated into the site which would help my partner and I keep a consistent design and code structure on all the web pages. This stage also included understanding the branding of the company and how it would be represented through the website. </p>
+		       	<img class="lightbox-img" src="img/seeremwireframes.png" alt="SeeRem Wireframes">
+	    	</div>
+		</div>
+
+		<div class="container">
 	    	<div class="page-description left">
 	    		<h3>Website Development</h3>
 	    		<p>Development of the website began in the second month, where I started creating template pages using HTML and CSS. Throughout the weeks, we began refining the layout of the overall site by compiling content, images, and deciding on the overall flow that would create a positive user experience. JavaScript was also used in the site to increase the functionality, such as having a scroll to top and confirmation messages.</p>
 	    	</div>
-	    	<!-- Image -->
 	    	<div class="image-container right">
-		       	<img src="img/seerempages.png" alt="SeeRem Website Layouts">
+		       	<img class="lightbox-img" src="img/seerempages.png" alt="SeeRem Website Layouts">
 	    	</div>
 		</div>
 
-		<!-- Project Analysis Part Three -->
 		<div class="container center-align">
-	    	<!-- Image -->
 	    	<div class="image-container left">
-		       	<img src="img/seeremmobile.png" alt="SeeRem Website on Mobile">
+		       	<img class="lightbox-img" src="img/seeremmobile.png" alt="SeeRem Website on Mobile">
 	    	</div>
-	    	<!-- Description -->
 	    	<div class="page-description right">
 	    		<h3>Challenge of Responsiveness</h3>
 	    		<p>Once the structure of the website was developed, I had to ensure that the site was responsive so that it can be viewed on different device screen sizes, including mobile. This was one of the more challenging tasks of the project as it was my first time developing a website that would be fully responsive. Making the website work well for mobile devices proved to be very hard as the screen size was a lot smaler in comparison to a desktop screen size. However, through the use of media queries, I was able to make the elements of the page more appropriate for smaller screen sizes.</p>
 	    	</div>
 		</div>
 
-		<!-- Project Analysis Part Four -->
 		<div class="container column">
-	    	<!-- Project Conclusion -->
 	    	<div class="page-description">
 	    		<h3>Conclusion</h3>
 	    		<p>Overall, the whole process took two months and the website was coded to be responsive on a variety of devices and browsers. Although we were able to showcase the necessary information to promote SeeRem on a front-end website, I would like to explore the possibility of developing the back-end portion of the site in the future to handle user data. Using the experience from this project, I would spend more time considering how future website projects would look on mobile to make the process of implementing responsiveness easier. The final website was submitted to the company, where it received a positive review from Seeda.</p>
 	    	</div>
-	    	<!-- Image -->
 	    	<div class="image-container right">
-		       	<img src="img/seeremconclusion.png" alt="SeeRem Website Before and After">
+		       	<img class="lightbox-img" src="img/seeremconclusion.png" alt="SeeRem Website Before and After">
 	    	</div>
-		</div>
+		</div> -->
 
 		<!-- Next Project Button -->
 		<div class="project-navigation">
-			<a href="shoeaddiction.html" class="action-btn">Next:&nbsp;Shoe&nbsp;Addiction&nbsp;&rarr;</a>
+			<a href="shoeaddiction.html" class="action-btn arrow">Next:&nbsp;Shoe&nbsp;Addiction</a>
 		</div>
-		
 
 		<!-- Footer -->
 		<footer>
 			<!-- Copyright Information -->
 			<div class="footer-copyright">
-				<p>&#169; 2020 Carissa Shum</p>
+				<p>&#169; 2021 Carissa Shum</p>
 			</div>
 			<!-- Footer Links -->
 			<div class="footer-links">
-				<a href="styleguide.html" target="_blank">Style Guide</a>
+				<!-- <a href="styleguide.html" target="_blank">Style Guide</a>
 				<a href="https://github.com/cwkshum/IAT339_Portfolio" target="_blank">GitHub</a>
-				<a href="citations.html" target="_blank">Citations</a>
+				<a href="citations.html" target="_blank">Citations</a> -->
 			</div>
 		</footer>
+
+		<!-- The Modal
+		<div id="myModal" class="modal">
+			<span class="close">&times;</span>
+			<img class="modal-content" id="img01">
+			<div id="caption"></div>
+		</div>
+		
+		Javascript for Lightbox 
+		<script src="js/lightbox.js"></script> -->
   	</body>
 </html>

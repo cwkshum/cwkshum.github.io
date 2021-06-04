@@ -18,7 +18,8 @@ function showNavigation(screenSize) {
 
 
 window.onscroll =  function(){
-  if ((matchScreen && document.body.scrollTop > 180) || (matchScreen && document.documentElement.scrollTop > 180)) {
+  // if ((matchScreen && document.body.scrollTop > 180) || (matchScreen && document.documentElement.scrollTop > 180)) {
+    if ((matchScreen && document.body.scrollTop > 520) || (matchScreen && document.documentElement.scrollTop > 520)) {
     // show navigation bar
     nav.style.visibility = 'visible';
     nav.style.opacity = '1';

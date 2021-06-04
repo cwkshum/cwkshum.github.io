@@ -6,16 +6,93 @@
 
 /* Header Styling */
 .main-header {
-  padding: 4rem 10% 4rem;
+  padding: 12rem 10% 12rem;
   margin-bottom: -2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  background-color: #f2edec;
 }
 
+.curve-container {
+  position: absolute;
+  z-index: 0;
+  right: 0;
+}
+
+.curves {
+  width: 70vw;
+  height: auto;
+}
+
+.curve-container > svg > g > path {
+  animation: animateCurves 90s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+  animation-direction: alternate;
+}
+
+.curve-container > svg > g > path:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 25s;
+}
+
+.curve-container > svg > g > path:nth-child(2) {
+  animation-delay: -10s;
+  animation-duration: 45s;
+}
+
+.curve-container > svg > g > path:nth-child(3) {
+  animation-delay: -30s;
+  animation-duration: 65s;
+}
+
+@keyframes animateCurves {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+.wave-container {
+  background: linear-gradient(#f2edec, #ffffff 65%);
+}
+
+.wave-container > svg {
+  z-index: 1;
+  display: block;
+  transform-origin: bottom;
+  animation: animateWave 1000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+.wave-container > svg > path:nth-child(2) {
+  animation: animateWaveVertical 20s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+  animation-direction: alternate;
+}
+
+.wave-container > svg > path:nth-child(3) {
+  animation: animateWaveVertical 10s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+  animation-direction: alternate;
+  animation-delay: -4s;
+}
+
+.wave-container > svg > path:nth-child(4) {
+  animation: animateWaveVertical 15s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+  animation-direction: alternate;
+  animation-delay: -4s;
+}
+
+@keyframes animateWaveVertical {
+  0% {
+    transform: translate3d(0px, 20px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
 /* Header Text Container */
 .header-content {
   flex: 3;
+  z-index: 1;
 }
 
 /* Header Text Styling */
@@ -27,6 +104,7 @@
 .main-header h2 {
   color: #C09992;
   width: 60%;
+  font-weight: 600;
   font-size: 1.5rem;
   margin-top: -10rem;
   margin-left: 0.3rem;
@@ -42,6 +120,7 @@
 /* Header Links Container */
 .side-nav {
   flex: 1;
+  z-index: 1;
 }
 
 /* Header Link Styling */
@@ -161,7 +240,7 @@ hr {
 /* Screen size below 480px */
 @media screen and (max-width: 30rem) {
   .main-header {
-    padding: 8rem 0 0 9%;
+    padding: 9rem 0 3rem 9%;
     margin-bottom: -1.5rem;
   }
 
@@ -240,7 +319,7 @@ hr {
 /* Screen size of 480px - 768px */
 @media screen and (min-width: 30rem) and (max-width: 48rem) {
   .main-header {
-    padding: 9rem 0 0 9%;
+    padding: 11rem 0 5rem 9%;
     margin-bottom: -1rem;
   }
 
@@ -319,7 +398,7 @@ hr {
 /* Screen size of 768px - 960px */
 @media screen and (min-width: 48rem) and (max-width: 60rem) {
   .main-header {
-    padding: 4rem 9% 0;
+    padding: 8rem 9% 8rem;
   }
 
   .main-header h1 {

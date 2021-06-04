@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background: #ffffff;
   font-family: "Open Sans", sans-serif;
@@ -205,82 +206,6 @@ header h2 {
   padding-right: 8%;
 }
 
-/* Form Styling */
-.contact-form {
-  background: #ffffff;
-  margin-top: -1.5rem;
-  padding-left: 2rem;
-  padding-bottom: 1.2rem;
-}
-
-.form-container {
-  flex: 1;
-  padding: 2rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 3rem;
-  background: #ffffff;
-}
-
-.form-container h2 {
-  margin-left: 0.8rem;
-}
-
-.form-section.name {
-  padding-top: 2rem;
-  margin-bottom: -3rem;
-  margin-left: -1rem;
-  margin-right: 5rem;
-  display: inline-block;
-}
-
-.form-section.block {
-  padding-top: 3rem;
-  margin-bottom: -2rem;
-  margin-left: -1rem;
-  margin-right: 6.8rem;
-  display: block;
-}
-
-.form-label {
-  color: #3C3C3C;
-}
-
-/* Styling Text Input Box */
-.text-input {
-  padding: 0.5rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.7rem;
-  border: 1px solid #bbbbbb;
-  font-family: "Open Sans", sans-serif;
-  transition: 0.5s;
-}
-
-.text-input:hover, textarea:hover {
-  border: 1px solid #C09992;
-  background: #F5F5F5;
-}
-
-.text-input:focus, textarea:focus {
-  border: 1px solid #C09992;
-  background: #DDC7C4;
-}
-
-/* Text Area Styling */
-textarea {
-  width: 100%;
-  padding: 0.5rem;
-  margin-top: 0.5rem;
-  font-family: "Open Sans", sans-serif;
-  border: 1px solid #bbbbbb;
-  transition: 0.5s;
-}
-
-/* Change Size of Text Input Field */
-input[type=text], input[type=email], textarea {
-  width: 100%;
-}
-
 /* Button Styling */
 .action-btn-container {
   margin-left: -1rem;
@@ -307,6 +232,19 @@ input[type=text], input[type=email], textarea {
   border: 2px solid #8C7977;
   background: #FCFCFC;
   color: #7B7B7B;
+}
+
+.arrow {
+  margin: 1em 0;
+}
+.arrow::after {
+  display: inline-block;
+  padding-left: 0.25rem;
+  content: "→";
+  transition: transform 0.3s ease-out;
+}
+.arrow:hover::after {
+  transform: translateX(0.5rem);
 }
 
 /* Footer Styling */
