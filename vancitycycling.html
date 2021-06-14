@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<!-- Website Tab Title -->
+    	<title>VanCity Cycling | Carissa Shum</title>
+
+    	<!-- Website Tab Icon -->
+    	<link rel="icon" href="img/logo.png" type="image/png">
+
+    	<!-- Linked Google Fonts -->
+    	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    	<!-- Linked Style Sheets -->
+    	<link href="css/main.css" rel="stylesheet">
+    	<link href="css/project.css" rel="stylesheet">
+    	<link href="css/vancitycycling.css" rel="stylesheet">
+  	</head>
+
+  	<body>
+  		<!-- Navigation -->
+		<nav class="main-nav">
+			<!-- Navigation Logo -->
+			<a href="index.html" class="nav-logo"><img src="img/logo.png" alt="Carissa Shum Logo"></a>
+			<!-- Navigation Button for Mobile -->
+			<input class="menu-btn" type="checkbox" id="menu-btn" />
+			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+			<!-- Navigation Links -->
+			<ul class="nav-link-section">
+		    	<li><a href="index.html" class="nav-link">Projects</a></li>
+		    	<li><a href="about.html" class="nav-link">About</a></li>
+		    	<li><a href=" " class="nav-link">Resume</a></li>
+		  	</ul>
+		</nav>
+
+
+	    <!-- Header -->
+	    <header class="sub-header">
+	    	<h1>VanCity Cycling</h1>
+	    	<h2>Mobile Application</h2>
+	    </header>
+
+	    <div class="container">
+	    	<!-- Information About Project -->
+	    	<div class="page-description">
+	    		<h2>Overview</h2>
+	    		<hr>
+	    		<p>VanCity Cycling is an android mobile application that allows users to plan their cycling trips 
+					around Vancouver. Developed in a team of two in collaboration with 
+					<a href="https://citystudiovancouver.com/what-we-do/" target="_blank">CityStudio</a> and the 
+					<a href="https://vancouver.ca/streets-transportation/biking.aspx" target="_blank">City of Vancouver</a>, 
+					the goal of the application is to promote bike riding as a mode of transportation for novice cyclists. 
+					Through VanCity Cycling, we wanted beginner cyclists to feel more comfortable with the idea of cycling 
+					around Vancouver by providing them with easy ways to plan their trips, get detailed information on the 
+					routes they are taking, as well as offer route options and resources to help them on their journey.</p>
+	    	</div>
+	    	<!-- Image -->
+	    	<div class="image-container">
+		       	<img src="img/vancity/overview.png" alt="VanCity Cycling Mobile Application">
+				   <!-- <video width="100%" height="300" controls autoplay muted loop>
+					<source src="img/vancity/vancityproject.mp4" type="video/mp4">
+				  Your browser does not support the video tag.
+				  </video> -->
+	    	</div>
+		</div>
+
+		<div class="project-description">
+			<!-- Project Role -->
+			<section>
+				<h3>Role</h3>
+				<ul>
+					<li>Application Developer</li>
+					<li>UI/UX Designer</li>
+				</ul>
+			</section>
+			<!-- Project Tools -->
+			<section class="tools-container">
+				<h3>Tools</h3>
+				<ul>
+					<li>Java</li>
+					<li>XML</li>  
+					<li>Android Studio</li>
+					<li>Figma</li>  
+				</ul>
+			</section>
+			<!-- Project Team -->
+			<section>
+				<h3>Team</h3>
+				<ul>
+					<li>Chamira Perera</li>
+				</ul>
+			</section>
+			<!-- Duration -->
+			<section class="duration-container">
+				<h3>Duration</h3>
+				<ul>
+					<li>8 Weeks<br>(Feb-Apr 2021)</li>
+				</ul>
+			</section>
+		</div>
+
+		<!-- Divider -->
+		<hr class="divider">
+
+		<!-- Project Analysis Part One -->
+		<div class="container">
+	    	<div class="heading-container">
+	    		<h3>Planning & Wireframes</h3>
+	    	</div>
+	    	<!-- Description -->
+	    	<div class="process-description">
+				<p>The first week of the development process consisted of planning out the features that would be implemented 
+					and designing the initial wireframes for each app activity on Figma. With the main functionality 
+					of the app being the ability to plan routes using a built-in map, we came up with the concept to have three 
+					route generating options that the user can pick from to help fit the needs of a wider range of cyclists. The 
+					different options consist of users being able to pick a predetermined end location to cycle to and the 
+					app will create a route to that location based on their current position or users can pick a predetermined 
+					route with a set start and end point. Although there is still the standard option of manually inputting a 
+					start and end point, these predetermined options provide beginner cyclists with options that they can easily 
+					select from without having to input their own destination. The idea of adding a checklist activity was also 
+					discussed as it would allow users to better prepare for their cycling trip and to ensure that they have all 
+					the necessary equipment ready before they head out on their journey. </p>
+				<!-- Image -->
+				<img src="img/vancity/wireframes.png" alt="VanCity Cycling Wireframes">
+			</div>
+		</div>
+
+		<!-- Project Analysis Part Two -->
+		<div class="container">
+	    	<!-- Image -->
+	    	<div class="heading-container">
+	    		<h3>Interface Implementation</h3>
+	    	</div>
+	    	<!-- Description -->
+	    	<div class="process-description">
+				<p>Once the details and wireframes of each application activity was planned out and designed, I helped create the 
+					overall branding of VanCity Cycling which utilized the colours of blue and green to represent Vancouver. I 
+					then assisted in programming the interface for each activity that we had planned to implement in our application 
+					in Android Studio using XML.</p>
+				
+				<img src="img/vancity/interface.png" alt="Interface Implementation">
+				<img src="img/vancity/branding.png" alt="VanCity Cycling Branding">
+			</div>
+		</div>
+
+		<!-- Project Analysis Part Three -->
+		<div class="container">
+	    	<!-- Image -->
+	    	<div class="heading-container">
+	    		<h3>Database Creation</h3>
+	    	</div>
+	    	<!-- Description -->
+	    	<div class="process-description">
+				<p>To keep track of the app’s data, I created SQLite databases which held the Vancouver bikeways data and predetermined 
+					routes that a user can select from when planning their trip. The database was also used to store the user’s information, 
+					such as their favourite routes and account information, as well as their checklist data. In order to retrieve, store, 
+					update, and delete data from the database, I utilized SQL queries to execute the task that the user requested. A search 
+					and filter functionality was also implemented in some of the map sub activities to allow users to refine their search in 
+					the database. </p>
+	    	
+				<video width="100%" controls autoplay muted loop>
+					<source src="img/vancity/checklist.mp4" type="video/mp4">
+				  	Your browser does not support the video tag.
+				</video>
+			</div>
+		</div>
+
+		<!-- Project Analysis Part Four -->
+		<div class="container">
+	    	<!-- Image -->
+	    	<div class="heading-container">
+	    		<h3>Map & GPS Functionality</h3>
+	    	</div>
+	    	<!-- Description -->
+	    	<div class="process-description">
+				<p>The main map activity of the application that I implemented using Java consisted of three sub-activities; landmarks, 
+					create route, and popular routes. I created the landmarks activity to display a list of predetermined landmarks around 
+					Vancouver that users can bike to from the SQLite database. When a landmark option has been selected and started, the 
+					app will take the user’s current location using the GPS functionality and it will show them the bike route on the main 
+					map using the Directions API. </p>
+
+				<video width="100%" controls autoplay muted loop>
+					<source src="img/vancity/landmarks.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+
+				<p>In the create route activity, users can enter a start and end point. When a route is searched for using these points, 
+					the application will then look in the Vancouver bikeways database to check if a match was found. If there is a match, 
+					these points will be used by the Directions API to generate different route options. These options will then be 
+					presented to the user in a list with the route number, bikeways type, route distance, and duration. Once a route 
+					option has been selected, the app will take the user back to the main map where the start/end markers plus the route 
+					itself will be displayed.</p>
+
+				<video width="100%" controls autoplay muted loop>
+					<source src="img/vancity/createroute.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+
+				<p>The last sub-activity is the popular routes activity which will have predetermined routes with both a start and end 
+					point that users can select from. They will have the opportunity to favourite these routes which will be stored in 
+					the SQLite database as well as filter the options to their cycling comfort level.</p>
+
+				<video width="100%" controls autoplay muted loop>
+					<source src="img/vancity/popularroutes.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+
+				<p>Additionally, the GPS was utilized in the resource activity to show the current weather of the area that the user is 
+					in based on their device’s location through the use of web services. The cyclist’s current speed will also be displayed 
+					on the screen through the use of a speedometer and the GPS to track the user’s current location.</p>
+				
+				<!-- Image -->
+				<img src="img/vancity/map.png" alt="VanCity Cycling Interface Map and Resource Activities">
+			</div>
+		</div>
+
+		<!-- Project Analysis Part Five -->
+		<div class="container">
+	    	<!-- Image -->
+	    	<div class="heading-container">
+	    		<h3>Sensors & Resources</h3>
+	    	</div>
+	    	<!-- Description -->
+	    	<div class="process-description">
+				<p>An instance where I integrated the use of device sensors within the app was through the use of in-app cycling alerts. 
+					These alerts will popup if the device light or temperature sensor detects that it is dark, hot outside (above 18ºC), 
+					or cold outside (below 7ºC) with a friendly warning once a cycling route has been selected. The intention behind these 
+					alerts are to remind users to exercise caution when cycling at night or to ensure that they are prepared for certain 
+					weather conditions. </p>
+
+				<video width="100%" controls autoplay muted loop>
+					<source src="img/vancity/alerts.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				
+				<p>The air pressure sensor data was also implemented and displayed in the resource activity to allow the user to see the 
+					change in air pressure as they are cycling. If the air pressure sensor returns a reading with a lower value, this 
+					informs the cyclist that the altitude is increasing which could result in a more difficult trip as they are most likely 
+					cycling uphill. Another feature that was implemented on the resource activity were implicit activity links that lead users 
+					to helpful cycling resources such as bike safety and bike laws. </p>
+				
+				<video width="100%" controls autoplay muted loop>
+					<source src="img/vancity/resource.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+		</div>
+
+		<!-- Project Analysis Part Six -->
+		<div class="container">
+	    	<!-- Image -->
+	    	<div class="heading-container">
+	    		<h3>Emulator Challenge</h3>
+	    	</div>
+	    	<!-- Description -->
+	    	<div class="process-description">
+				<p>A challenge that we faced during the development process was with the Android Studio emulator, which was the application 
+					that we were using to create, test, and run the project. Since neither one of us had access to a physical Android device to 
+					test our app on, we had to rely on the virtual emulator which came with certain restrictions for what we could program and 
+					execute. One of the limitations was the inability to activate a flashlight. This was an issue because we had initially planned 
+					on implementing a night mode feature that allowed users to turn on their device’s flashlight within the app while they were 
+					cycling in low light to increase visibility. Since we were unable to implement this due to the emulator’s restriction, we ended 
+					up changing our initial night mode idea into allowing users the ability to toggle between light and dark mode within the app 
+					depending on their preference. </p>
+				
+				<!-- Image -->
+				<img src="img/vancity/darkmode.png" alt="VanCity Cycling Light and Dark Mode">
+			</div>
+		</div>
+
+		<!-- Project Analysis Part Seven -->
+		<div class="container">
+	    	<!-- Image -->
+	    	<div class="heading-container">
+	    		<h3>Final Outcome</h3>
+	    	</div>
+	    	<!-- Description -->
+	    	<div class="process-description">
+				<!-- <video width="100%" controls loop>
+					<source src="img/vancity/vancityproject.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video> -->
+
+				<p>Within the span of 8 weeks, I was able to help develop a fully functional android application that allowed users to plan their 
+					cycling trips in an accessible way that would help beginner cyclists feel more comfortable with the idea of biking around Vancouver. 
+					For further developments on this app, I would like to explore the possibility of implementing a rating system to allow users to 
+					rate routes as well as provide feedback on them to give other users an idea of what to expect on their journey. At the end of the 
+					project, we were invited by the City of Vancouver to join a virtual session where we presented a demonstration of the VanCity Cycling 
+					application to their transportation division. </p>
+			</div>
+		</div>
+
+		<!-- Next Project Button -->
+		<div class="project-navigation">
+			<div class="next">
+				<a href="seerem.html" class="action-btn arrow-right">Next:&nbsp;SeeRem</a>
+			</div>
+		</div>
+
+		<!-- Scroll to Top Button -->
+		<button onclick="toTop()" id="scroll-top" class="action-btn">&#9650;</button>
+		
+		<!-- Footer -->
+		<footer>
+			<!-- Copyright Information -->
+			<div class="footer-copyright">
+				<p>&#169; 2021 Carissa Shum</p>
+			</div>
+			<!-- Footer Links -->
+			<div class="footer-links">
+				<!-- <a href="styleguide.html" target="_blank">Style Guide</a>
+				<a href="https://github.com/cwkshum/IAT339_Portfolio" target="_blank">GitHub</a>
+				<a href="citations.html" target="_blank">Citations</a> -->
+			</div>
+		</footer>
+
+		<!-- Javascript for Scroll to Top -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="js/projects.js"></script>
+  	</body>
+</html>

@@ -234,17 +234,30 @@ header h2 {
   color: #7B7B7B;
 }
 
-.arrow {
+.arrow-right {
   margin: 1em 0;
 }
-.arrow::after {
+.arrow-right::after {
   display: inline-block;
   padding-left: 0.25rem;
   content: "→";
   transition: transform 0.3s ease-out;
 }
-.arrow:hover::after {
+.arrow-right:hover::after {
   transform: translateX(0.5rem);
+}
+
+.arrow-left {
+  margin: 1em 0;
+}
+.arrow-left::before {
+  display: inline-block;
+  padding-right: 0.25rem;
+  content: "←";
+  transition: transform 0.3s ease-out;
+}
+.arrow-left:hover::before {
+  transform: translateX(-0.5rem);
 }
 
 /* Footer Styling */

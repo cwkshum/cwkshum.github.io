@@ -238,7 +238,7 @@ header h2{
 	color: #7B7B7B;
 }
 
-.arrow {
+.arrow-right {
 	// color: #0c5449;
 	margin: 1em 0;
   
@@ -262,7 +262,33 @@ header h2{
 			transform: translateX(0.5rem);
 		}
 	}
-  }
+}
+
+.arrow-left {
+	// color: #0c5449;
+	margin: 1em 0;
+  
+	&::before {
+		display: inline-block;
+		padding-right: 0.25rem;
+		content: "\2190"; // left right unicode
+		-webkit-transition: transform 0.3s ease-out;
+		-moz-transition: transform 0.3s ease-out;
+		-ms-transition: transform 0.3s ease-out;
+		-o-transition: transform 0.3s ease-out;
+		transition: transform 0.3s ease-out;
+	}
+  
+	&:hover {
+		&::before {
+			-webkit-transform: translateX(-0.5rem);
+			-moz-transform: translateX(-0.5rem);
+			-ms-transform: translateX(-0.5rem);
+			-o-transform: translateX(-0.5rem);
+			transform: translateX(-0.5rem);
+		}
+	}
+}
 
 /* Footer Styling */
 footer{
