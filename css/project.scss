@@ -162,8 +162,6 @@ hr{
 		margin: 3rem 9.5% 6rem;
 	}
 
-	
-
 	.heading-container{
 		margin-right: 0;
 		text-align: left;
@@ -172,6 +170,14 @@ hr{
 
 	.process-description{
 		padding-right: 0;
+	}
+
+	.project-navigation a{
+		font-size: 0.6rem;
+	}
+
+	.project-navigation .action-btn{
+		padding: 0.8rem 0.8rem;
 	}
 }
 
@@ -221,8 +227,6 @@ hr{
 		margin: 3rem 9.5% 6rem;
 	}
 
-
-
 	.heading-container{
 		margin-right: 0;
 		text-align: left;
@@ -232,10 +236,19 @@ hr{
 	.process-description{
 		padding-right: 0;
 	}
+
+	.project-navigation a{
+		font-size: 0.7rem;
+	}
+
+	.project-navigation .action-btn{
+		padding: 0.8rem 1rem;
+	}
 }
 
 /* Screen size of 768px - 1280px */
 @media screen and (min-width: 48rem) and (max-width: 80rem){
+
 	.container{
 		flex-direction: column;
 	}
@@ -256,8 +269,6 @@ hr{
 	.project-description li{
 		font-size: 0.8rem;
 	}
-
-
 		
 	.heading-container{
 		margin-right: 0;

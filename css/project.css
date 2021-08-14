@@ -158,6 +158,14 @@ hr {
   .process-description {
     padding-right: 0;
   }
+
+  .project-navigation a {
+    font-size: 0.6rem;
+  }
+
+  .project-navigation .action-btn {
+    padding: 0.8rem 0.8rem;
+  }
 }
 /* Screen size of 480px - 768px */
 @media screen and (min-width: 30rem) and (max-width: 48rem) {
@@ -200,6 +208,14 @@ hr {
 
   .process-description {
     padding-right: 0;
+  }
+
+  .project-navigation a {
+    font-size: 0.7rem;
+  }
+
+  .project-navigation .action-btn {
+    padding: 0.8rem 1rem;
   }
 }
 /* Screen size of 768px - 1280px */
