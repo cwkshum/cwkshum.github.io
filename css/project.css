@@ -82,7 +82,6 @@ hr {
   border: 1px solid #f2edec;
 }
 
-/* Container For Next Project Button */
 .project-navigation {
   display: flex;
   flex-direction: row;
@@ -160,11 +159,11 @@ hr {
   }
 
   .project-navigation a {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
 
   .project-navigation .action-btn {
-    padding: 0.8rem 0.8rem;
+    padding: 0.7rem 0.7rem;
   }
 }
 /* Screen size of 480px - 768px */
