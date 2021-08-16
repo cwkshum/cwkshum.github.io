@@ -23,8 +23,6 @@ $accent-colour2:  #DDC7C4;
 	margin-right: 10%;
 	text-align: right;
 	padding-left: 2%;
-
-	// border: 1px solid;
 }
 
 /* Process Description Styling */
@@ -32,8 +30,6 @@ $accent-colour2:  #DDC7C4;
 	flex: 3;
 	order: 2;
 	padding-right: 15%;
-
-	// border: 1px solid;
 }
 
 .process-description img{
@@ -131,7 +127,7 @@ hr{
 
 	.image-container{
 		margin: 0 auto;
-		margin-top: 5rem;
+		margin-top: 2rem;
 	}
 
 	.project-description{
@@ -173,6 +169,10 @@ hr{
 	.project-navigation .action-btn{
 		padding: 0.7rem 0.7rem;
 	}
+
+	.container{
+		padding: 1.2rem 0;
+	}
 }
 
 /* Screen size of 480px - 768px */
@@ -183,7 +183,7 @@ hr{
 
 	.image-container{
 		margin: 0 auto;
-		margin-top: 5rem;
+		margin-top: 2rem;
 	}
 
 	.project-description{
@@ -225,6 +225,10 @@ hr{
 	.project-navigation .action-btn{
 		padding: 0.8rem 1rem;
 	}
+
+	.container{
+		padding: 1.5rem 0;
+	}
 }
 
 /* Screen size of 768px - 1280px */
@@ -236,7 +240,7 @@ hr{
 
 	.image-container{
 		margin: 0 auto;
-		margin-top: 5rem;
+		margin-top: 2rem;
 	}
 
 	.page-description{

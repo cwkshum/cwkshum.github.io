@@ -123,7 +123,7 @@ hr {
 
   .image-container {
     margin: 0 auto;
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
 
   .project-description {
@@ -165,6 +165,10 @@ hr {
   .project-navigation .action-btn {
     padding: 0.7rem 0.7rem;
   }
+
+  .container {
+    padding: 1.2rem 0;
+  }
 }
 /* Screen size of 480px - 768px */
 @media screen and (min-width: 30rem) and (max-width: 48rem) {
@@ -174,7 +178,7 @@ hr {
 
   .image-container {
     margin: 0 auto;
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
 
   .project-description {
@@ -216,6 +220,10 @@ hr {
   .project-navigation .action-btn {
     padding: 0.8rem 1rem;
   }
+
+  .container {
+    padding: 1.5rem 0;
+  }
 }
 /* Screen size of 768px - 1280px */
 @media screen and (min-width: 48rem) and (max-width: 80rem) {
@@ -225,7 +233,7 @@ hr {
 
   .image-container {
     margin: 0 auto;
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
 
   .page-description {
