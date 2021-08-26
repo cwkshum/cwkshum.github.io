@@ -301,6 +301,10 @@ footer {
     font-size: 0.75rem;
   }
 
+  p {
+    line-height: 1.4rem;
+  }
+
   .sub-header {
     margin-bottom: 0;
     padding: 8rem 10% 3rem;

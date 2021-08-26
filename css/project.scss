@@ -25,6 +25,11 @@ $accent-colour2:  #DDC7C4;
 	padding-left: 2%;
 }
 
+.heading-container h3{
+	position: sticky;
+	top: 10rem;
+}
+
 /* Process Description Styling */
 .process-description{
 	flex: 3;

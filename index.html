@@ -17,6 +17,7 @@
 		<!-- Linked Style Sheets -->
 		<link href="css/main.css" rel="stylesheet">
 		<link href="css/index.css" rel="stylesheet"> 
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 	</head>
 
 	<body>
@@ -55,15 +56,14 @@
 
 		<!-- Header -->
 		<header class="main-header">
-
 			<!-- Header Text -->
-			<div class="header-content">
+			<div class="header-content" data-aos="fade">
 				<h1>Carissa Shum</h1>
 				<h2>Hello, I'm</h2>
 				<h3>A Web Developer and UX/UI Designer</h3>
 			</div>
 			<!-- Header Links -->
-			<div class="side-nav">
+			<div class="side-nav" data-aos="fade">
 				<ul>
 			    	<li><a href="index.html#projects">Projects</a></li>
 			    	<li><a href="about.html">About</a></li>
@@ -84,12 +84,12 @@
 
 		<!-- Projects Section -->
 		<div id="projects" class="page-contents anchor">
-			<h2 class="subheading">Projects</h2>
-			<hr>
+			<h2 class="subheading" data-aos="fade">Projects</h2>
+			<hr data-aos="fade">
 
 			<div class="project-display-container">
 				<!-- Project Display One -->
-				<div class="project-display project-one">
+				<div class="project-display project-one" data-aos="fade">
 					<!-- Project Image -->
 					<div class="project-image">
 						<a href="vancitycycling.html"><img src="img/vancityproject.png" alt="VanCity Cycling Project"></a>
@@ -106,7 +106,7 @@
 				</div>
 
 				<!-- Project Display Two -->
-				<div class="project-display project-two">
+				<div class="project-display project-two" data-aos="fade">
 					<!-- Project Image -->
 					<div class="project-image">
 						<a href="seerem.html"><img src="img/seeremproject.png" alt="SeeRem Project"></a>
@@ -125,7 +125,7 @@
 
 			<div class="project-display-container">
 				<!-- Project Display One -->
-				<div class="project-display project-one">
+				<div class="project-display project-one" data-aos="fade">
 					<!-- Project Image -->
 					<div class="project-image">
 						<a href="shoeaddiction.html"><img src="img/shoeaddictionproject.png" alt="Shoe Addiction"></a>
@@ -142,7 +142,7 @@
 				</div>
 
 				<!-- Project Display Two -->
-				<div class="project-display project-two">
+				<div class="project-display project-two" data-aos="fade">
 					<!-- Project Image -->
 					<div class="project-image">
 						<a href="psod.html"><img src="img/psodproject.png" alt="PSOD Videos"></a>
@@ -175,6 +175,8 @@
 		</footer>
 
 		<!-- Javascript for Navigation -->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script src="js/main.js"></script>
+		<script src="js/animations.js"></script>
 	</body>
 </html>
