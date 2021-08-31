@@ -42,6 +42,29 @@ $accent-colour2:  #DDC7C4;
 	margin-top: 0.5rem;
 }
 
+.process-description figure{
+	margin: 0;
+}
+
+.process-description figure + figure{
+	margin-top: 2rem;
+}
+
+.process-description figcaption{
+	margin-top: 0.5rem;
+	font-style: italic;
+}
+
+.embedded-video{
+	padding: 56.25% 0 0 0;
+	position: relative;
+}
+
+.embedded-video p{
+	margin-top: 3rem;
+	font-style: italic;
+}
+
 /* Image Styling */
 .image-container{
 	flex: 1;
@@ -151,6 +174,14 @@ hr{
 
 	.page-description{
 		padding-right: 0;
+	}
+
+	.process-description figure + figure{
+		margin-top: 1rem;
+	}
+
+	.embedded-video p{
+		margin-top: 2rem;
 	}
 
 	.project-navigation{

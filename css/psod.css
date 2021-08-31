@@ -6,3 +6,12 @@
   background-size: cover;
   background-attachment: fixed;
 }
+
+.youtube-video ~ p {
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.youtube-video ~ iframe {
+  margin-top: 2rem;
+}

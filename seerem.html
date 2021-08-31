@@ -11,16 +11,14 @@
     	<link rel="icon" href="img/logo.png" type="image/png">
 
     	<!-- Linked Google Fonts -->
-    	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
     	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
 
     	<!-- Linked Style Sheets -->
     	<link href="css/main.css" rel="stylesheet">
     	<link href="css/project.css" rel="stylesheet">
 		<link href="css/seerem.css" rel="stylesheet">
-		
-		<!-- JQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
   	</head>
 
   	<body>
@@ -41,34 +39,28 @@
 
 	    <!-- Header -->
 	    <header class="sub-header">
-	    	<h1>SeeRem</h1>
-	    	<h2>Front-End Website</h2>
+	    	<h1 data-aos="fade">SeeRem</h1>
+	    	<h2 data-aos="fade">Front-End Website</h2>
 	    </header>
 
 	    <div class="container">
 	    	<!-- Information About Project -->
-	    	<div class="page-description">
+	    	<div class="page-description" data-aos="fade">
 	    		<h2>Overview</h2>
 	    		<hr>
-	    		<p>Working in a team of two, we collaborated with the company <a href="https://www.seeda.dev" target="_blank">SEEDA</a> 
-					to develop a front-end website for their SeeRem division. The objective of the project was to design and build a 
-					functioning website for SeeRem to help potential customers learn more about their application and connect with the 
-					sales team. By communicating with the company, I was able to learn more about the service they were offering, which 
-					assisted in the process of better designing for the intended purpose of the site. The end product was a fully developed 
-					front-end responsive website to promote SeeRem, an application that allows teams working in remote worksites to connect 
-					with one another.</p>
+	    		<p>Working in a team of two, we collaborated with the company <a href="https://www.seeda.dev/about-seeda-environmental-engineering" target="_blank">SEEDA</a> to develop a front-end website for their SeeRem division. The objective of the academic project was to design and build a functioning website for SeeRem to help potential customers learn more about their application and connect with the sales team. By communicating with the company, I was able to learn more about the service they were offering, which assisted in the process of better designing for the intended purpose of the site. The end product was a fully developed front-end responsive website that promoted the SeeRem application, which led to an internship position with the company in 2021.</p>
 	    		<!-- Website Link -->
 	    		<div class="overview-button">
 	    			<a href="http://www.sfu.ca/~cws8/iat339/seerem" class="action-btn arrow-right" target="_blank">View&nbsp;Website</a>
 	    		</div>
 	    	</div>
 	    	<!-- Image -->
-	    	<div class="image-container">
+	    	<div class="image-container" data-aos="fade">
 				<img src="img/seeremproject.png" alt="SeeRem Website">
 	    	</div>
 		</div>
 
-		<div class="project-description">
+		<div class="project-description" data-aos="fade">
 			<!-- Project Role -->
 			<section>
 				<h3>Role</h3>
@@ -103,55 +95,54 @@
 		</div>
 
 		<!-- Divider -->
-		<hr class="divider">
+		<hr class="divider" data-aos="fade">
 
 		<!-- Project Analysis Part One -->
 		<div class="container">
-	    	<div class="heading-container">
+			<!-- Heading -->
+	    	<div class="heading-container" data-aos="fade">
 	    		<h3>Ideation & Style Guide</h3>
 	    	</div>
 	    	<!-- Description -->
-	    	<div class="process-description">
-				<p>During the first month of the project, I began creating wireframes and a style guide for the SeeRem website. 
-					The style guide consisted of designing the basic structure and elements that would be incorporated into the site 
-					which would help keep a consistent design and code structure on all the web pages. This stage also included understanding 
-					the branding of the company and how it would be represented through the website, which led to communicating with the 
-					CEO of the company for additional information regarding their SeeRem application.</p>
+	    	<div class="process-description" data-aos="fade">
+				<p>During the first month of the project, I began creating wireframes and a style guide for the SeeRem website. The style guide consisted of designing the basic structure and elements that would be incorporated into the site which would help keep a consistent design and code structure on all the web pages. This stage also included understanding the branding of the company and how it would be represented through the website, which led to communicating with the CEO of the company for additional information regarding their SeeRem application.</p>
 				<!-- Image -->
-				<img src="img/seerem/styleguide.png" alt="SeeRem Style Guide">
-				<img src="img/seerem/wireframes.png" alt="SeeRem Wireframes">
+				<figure>
+					<img src="img/seerem/styleguide.png" alt="SeeRem Style Guide">
+					<figcaption>SeeRem style guide</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="img/seerem/wireframes.png" alt="SeeRem Wireframes">
+					<figcaption>Initial website wireframes</figcaption>
+				</figure>
 			</div>
 		</div>
 
 		<!-- Project Analysis Part Two -->
 		<div class="container">
-	    	<!-- Image -->
-	    	<div class="heading-container">
+	    	<!-- Heading -->
+	    	<div class="heading-container" data-aos="fade">
 	    		<h3>Website Development</h3>
 	    	</div>
 	    	<!-- Description -->
-	    	<div class="process-description">
-				<img src="img/seerem/pages.png" alt="SeeRem Website Layouts">
-				<p>Development of the website began in the second month, where I started creating template pages using HTML and CSS. 
-					Throughout the weeks, we began refining the layout of the overall site by compiling content, images, and deciding 
-					on the overall flow that would create a positive user experience. For instance, the home page went through multiple 
-					iterations with the first one only containing a brief overview about the SeeRem division as well as the different 
-					services links. I realized that this was not very informative for potential customers when they are trying to learn 
-					more about the application. This led to the decision of including a section discussing the features as well as the 
-					application’s benefits immediately on the home page so that this key information would be easily accessible to customers. 
-					JavaScript was also used in the site to increase the functionality, such as having a scroll to top button and confirmation 
-					messages which would inform users when their form has been successfully submitted.</p>
+	    	<div class="process-description" data-aos="fade">
+				<figure>
+					<img src="img/seerem/pages.png" alt="SeeRem Website Layouts">
+					<figcaption>SeeRem website layouts</figcaption>
+				</figure>
+				<p>Development of the website began in the second month, where I started creating template pages using HTML and CSS. Throughout the weeks, we began refining the layout of the overall site by compiling content, images, and deciding on the overall flow that would create a positive user experience. For instance, the home page went through multiple iterations with the first one only containing a brief overview about the SeeRem division as well as the different services links. I realized that this was not very informative for potential customers when they are trying to learn more about the application. This led to the decision of including a section discussing the features as well as the application’s benefits immediately on the home page so that this key information would be easily accessible to customers. JavaScript was also used in the site to increase the functionality, such as having a scroll to top button and confirmation messages which would inform users when their form has been successfully submitted.</p>
 			</div>
 		</div>
 
 		<!-- Project Analysis Part Three -->
 		<div class="container">
-	    	<!-- Image -->
-	    	<div class="heading-container">
+	    	<!-- Heading -->
+	    	<div class="heading-container" data-aos="fade">
 	    		<h3>Challenge of Responsiveness</h3>
 	    	</div>
 	    	<!-- Description -->
-	    	<div class="process-description">
+	    	<div class="process-description" data-aos="fade">
 				<p>Once the structure of the website was developed, I had to ensure that the site was responsive so that it can be viewed on 
 					different device screen sizes, including mobile. This was one of the more challenging tasks of the project as it was my 
 					first time developing a website that would be fully responsive. Making the website work well for mobile devices proved to 
@@ -160,36 +151,38 @@
 					screen sizes.</p>
 	    	
 				<!-- Image -->
-				<img src="img/seerem/mobile.png" alt="SeeRem Website on Mobile">
+				<figure>
+					<img src="img/seerem/mobile.png" alt="SeeRem Website on Mobile">
+					<figcaption>SeeRem website mobile view</figcaption>
+				</figure>
 			</div>
 		</div>
 
 		<!-- Project Analysis Part Four -->
 		<div class="container">
 	    	<!-- Image -->
-	    	<div class="heading-container">
+	    	<div class="heading-container" data-aos="fade">
 	    		<h3>Conclusion</h3>
 	    	</div>
 	    	<!-- Description -->
-	    	<div class="process-description">
-				<p>Overall, the whole process took two months and the website was coded to be responsive on a variety of devices and browsers. 
-					Although we were able to showcase the necessary information to promote SeeRem on a front-end website, I would like to 
-					explore the possibility of developing the back-end portion of the site in the future to handle user data. Using the 
-					experience from this project, I would spend more time considering how future website projects would look on mobile to make 
-					the process of implementing responsiveness easier. The final website was submitted to the company, which received a positive 
-					review from SEEDA that led to an internship position where I assisted with the official <a href="https://seerem.com" target="_blank">SeeRem website</a> 
-					launch and worked on a prototype for their web application.</p>
+	    	<div class="process-description" data-aos="fade">
+				<p>Overall, the whole process took two months and the website was coded to be responsive on a variety of devices and browsers. Although we were able to showcase the necessary information to promote SeeRem on a front-end website, I would like to explore the possibility of developing the back-end portion of the site in the future to handle user data. Using the experience from this project, I would spend more time considering how future website projects would look on mobile to make the process of implementing responsiveness easier.</p> 
+
+				<p>By completing this project, I was able to learn more about front-end web development, especially the process of making websites responsive, while improving upon my HTML, CSS, and JavaScript skills. It was also my first time developing a style guide and working with GitHub to collaboratively code with my partner which is a practice that I will carry over to future coding projects as it allows us to stay organized. The final website was then submitted to the company, which received a positive review from SEEDA that led to an internship position where I assisted with the official <a href="https://seerem.com" target="_blank">SeeRem website</a> launch and worked on a prototype for their web application.</p>
 				<!-- Image -->
-				<img src="img/seerem/conclusion.png" alt="SeeRem Website Before and After">
+				<figure>
+					<img src="img/seerem/conclusion.png" alt="SeeRem Website Before and After">
+					<figcaption>Original SeeRem website compared to the final redesign</figcaption>
+				</figure>
 			</div>
 		</div>
 
 		<!-- Next Project Button -->
 		<div class="project-navigation">
-			<div class="prev">
+			<div class="prev" data-aos="fade-right">
 				<a href="vancitycycling.html" class="action-btn arrow-left">Previous:&nbsp;VanCity&nbsp;Cycling</a>
 			</div>
-			<div class="next">
+			<div class="next" data-aos="fade-left">
 				<a href="shoeaddiction.html" class="action-btn arrow-right">Next:&nbsp;Shoe&nbsp;Addiction</a>
 			</div>
 		</div>
@@ -211,8 +204,10 @@
 			</div>
 		</footer>
 
-		<!-- Javascript for Scroll to Top -->
+		<!-- Linked Javascript -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="js/projects.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script src="js/animations.js"></script>
   	</body>
 </html>

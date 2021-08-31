@@ -12,12 +12,13 @@
     	<link rel="icon" href="img/logo.png" type="image/png">
 
     	<!-- Linked Google Fonts -->
-    	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
     	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
 
     	<!-- Linked Style Sheets -->
     	<link href="css/main.css" rel="stylesheet">
     	<link href="css/about.css" rel="stylesheet">
+		<link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
   	</head>
 
   	<body>
@@ -38,11 +39,11 @@
 
 	    <div class="container">
 	    	<!-- Image -->
-	    	<div class="image-container">
+	    	<div class="image-container" data-aos="fade">
 		       	<img src="img/me.jpg" alt="Carissa Shum">
 	    	</div>
 	    	<!-- Description -->
-	    	<div class="page-description">
+	    	<div class="page-description" data-aos="fade">
 		    	<h2>Hello, I'm Carissa!</h2>
 		    	<p>I am a Vancouver based web developer and UX/UI designer that is currently studying 
 					Interactive Arts and Technology at Simon Fraser University. My goal is to create a positive user experience 
@@ -68,5 +69,10 @@
 				<a href="https://www.linkedin.com/in/carissa-shum" target="_blank">LinkedIn</a>
 			</div>
 		</footer>
+
+		<!-- Linked JavaScript -->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script src="js/animations.js"></script>
+
   	</body>
 </html>
