@@ -109,8 +109,6 @@ $background-colour: #ffffff;
 /* Header Text Container */
 .header-content{
   flex: 3;
-
-  
   z-index: 1;
 }
   
@@ -130,7 +128,7 @@ $background-colour: #ffffff;
   
 .main-header h3{
   color: $accent-colour1;
-  width: 60%;
+  width: 70%;
   margin-top: 6.2rem;
   margin-left: 0.3rem;
 }
